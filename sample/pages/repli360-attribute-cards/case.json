@@ -1,0 +1,16 @@
+{
+  "kind": "parse",
+  "scraped_at": "2026-09-25T16:00:00+00:00",
+  "community": {
+    "id": "repli360-x",
+    "market": "CLT",
+    "name": "fixture",
+    "url": "https://example.com/"
+  },
+  "pages": [
+    {
+      "url": "https://example.com/render",
+      "file": "page1.html"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[project]
+name = "rentdb"
+version = "1.0.0"
+description = "Read operator leasing pages into dated, concession-adjusted rent records."
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["rentdb", "rentdb.adapters", "rentdb.fetchers"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv", "data/local"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I"]
+ignore = [
+    "E501",   # long comment lines carry measured evidence; wrapping them loses nothing but readability
+    "B905",   # zip() without strict= is intentional in the parsers
+    "I001",   # import order is grouped by meaning in several modules
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider --disable-socket"

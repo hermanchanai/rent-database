@@ -1,0 +1,17 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-09-29T16:00:00+00:00",
+  "community": {
+    "id": "atl-brighton-way",
+    "market": "ATL",
+    "name": "Brighton Way",
+    "url": "https://www.rentcafe.com/apartments/ga/smyrna/brighton-way0/default.aspx",
+    "product": "mf"
+  },
+  "pages": [
+    {
+      "url": "https://www.rentcafe.com/apartments/ga/smyrna/brighton-way0/default.aspx",
+      "file": "page1.html"
+    }
+  ]
+}

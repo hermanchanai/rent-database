@@ -1,0 +1,16 @@
+{
+  "kind": "parse",
+  "scraped_at": "2026-09-01T16:00:00+00:00",
+  "community": {
+    "id": "phx-knock",
+    "market": "PHX",
+    "name": "fixture",
+    "url": "https://example.com/"
+  },
+  "pages": [
+    {
+      "url": "https://example.com/units",
+      "file": "page1.json"
+    }
+  ]
+}

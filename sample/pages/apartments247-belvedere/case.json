@@ -1,0 +1,25 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-09-25T16:00:00+00:00",
+  "community": {
+    "id": "chi-belvedere",
+    "market": "CHI",
+    "name": "The Belvedere Apartments",
+    "url": "https://www.thebelvedereapts.com/",
+    "product": "mf"
+  },
+  "pages": [
+    {
+      "url": "https://www.thebelvedereapts.com/",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://www.thebelvedereapts.com/api/v1/community_info/",
+      "file": "page2.json"
+    },
+    {
+      "url": "https://www.thebelvedereapts.com/api/v3/floorplans/all/?api_key=<api-key>",
+      "file": "page3.json"
+    }
+  ]
+}

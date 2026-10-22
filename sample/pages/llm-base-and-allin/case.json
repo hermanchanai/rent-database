@@ -1,0 +1,13 @@
+{
+  "kind": "llm",
+  "scraped_at": "2026-09-21T16:00:00+00:00",
+  "community": {
+    "id": "aus-foxtail",
+    "market": "AUS",
+    "name": "Foxtail By Banyan",
+    "url": "https://example.com/",
+    "product": "bfr"
+  },
+  "rendered_text": "rendered.txt",
+  "model_reply": "model_reply.txt"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "llm",
+  "scraped_at": "2026-09-21T16:00:00+00:00",
+  "community": {
+    "id": "aus-paseo-bee-cave",
+    "market": "AUS",
+    "name": "Paseo at Bee Cave",
+    "url": "https://example.com/",
+    "product": "mf"
+  },
+  "rendered_text": "rendered.txt",
+  "model_reply": "model_reply.txt"
+}

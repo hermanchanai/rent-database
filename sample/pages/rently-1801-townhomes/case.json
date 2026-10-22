@@ -1,0 +1,22 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-10-02T16:00:00+00:00",
+  "community": {
+    "id": "nsh-1801-townhomes",
+    "market": "NSH",
+    "name": "1801 Townhomes",
+    "url": "https://www.1801townhomes.com/",
+    "address": "",
+    "product": "bfr"
+  },
+  "pages": [
+    {
+      "contains": "1801townhomes.com",
+      "file": "page1.html"
+    },
+    {
+      "contains": "/communities/44662/units",
+      "file": "page2.json"
+    }
+  ]
+}

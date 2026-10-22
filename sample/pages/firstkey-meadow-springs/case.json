@@ -1,0 +1,17 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-09-25T16:00:00+00:00",
+  "community": {
+    "id": "gsp-meadow-springs",
+    "market": "GSP",
+    "name": "Meadow Springs",
+    "url": "https://www.firstkeyhomes.com/rental-community/sc/meadow-springs",
+    "product": "bfr"
+  },
+  "pages": [
+    {
+      "url": "https://www.firstkeyhomes.com/rental-community/sc/meadow-springs",
+      "file": "page1.html"
+    }
+  ]
+}

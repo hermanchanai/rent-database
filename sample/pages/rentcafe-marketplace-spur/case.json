@@ -1,0 +1,17 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-09-29T16:00:00+00:00",
+  "community": {
+    "id": "las-spur",
+    "market": "LAS",
+    "name": "Spur",
+    "url": "https://www.rentcafe.com/apartments/nv/henderson/spur-0/default.aspx",
+    "product": "mf"
+  },
+  "pages": [
+    {
+      "url": "https://www.rentcafe.com/apartments/nv/henderson/spur-0/default.aspx",
+      "file": "page1.html"
+    }
+  ]
+}

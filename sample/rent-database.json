@@ -1,0 +1,4638 @@
+{
+  "headline": {
+    "communities": 16834,
+    "markets": 22,
+    "floor_plans": 68769,
+    "communities_with_rents": 13400,
+    "with_net_effective": 56203,
+    "under_concession": 33952,
+    "observations_all": 79193,
+    "observations_30d": 24797,
+    "last_observation": "2026-10-22T04:05:06+00:00",
+    "first_observation": "2026-05-18T05:26:02+00:00"
+  },
+  "markets": [
+    {
+      "market": "DFW",
+      "communities": 2700,
+      "bfr": 135,
+      "mf": 2565,
+      "with_rents": 1779,
+      "floor_plans": 10560,
+      "median_rent": 1564.0,
+      "median_psf": 1.74,
+      "pct_concession": 51.3,
+      "avg_discount_pct": 11.9,
+      "last_scraped": "2026-10-21T20:50:43+00:00"
+    },
+    {
+      "market": "HOU",
+      "communities": 2247,
+      "bfr": 69,
+      "mf": 2178,
+      "with_rents": 1734,
+      "floor_plans": 9688,
+      "median_rent": 1375.0,
+      "median_psf": 1.49,
+      "pct_concession": 41.9,
+      "avg_discount_pct": 11.3,
+      "last_scraped": "2026-10-20T22:00:40+00:00"
+    },
+    {
+      "market": "ATL",
+      "communities": 1787,
+      "bfr": 122,
+      "mf": 1665,
+      "with_rents": 1481,
+      "floor_plans": 7470,
+      "median_rent": 1662.0,
+      "median_psf": 1.66,
+      "pct_concession": 45.4,
+      "avg_discount_pct": 11,
+      "last_scraped": "2026-10-15T03:45:18+00:00"
+    },
+    {
+      "market": "LAX",
+      "communities": 1538,
+      "bfr": 0,
+      "mf": 1538,
+      "with_rents": 1158,
+      "floor_plans": 5492,
+      "median_rent": 2889.0,
+      "median_psf": 3.5,
+      "pct_concession": 31.6,
+      "avg_discount_pct": 10.9,
+      "last_scraped": "2026-10-20T21:20:06+00:00"
+    },
+    {
+      "market": "PHX",
+      "communities": 1445,
+      "bfr": 178,
+      "mf": 1267,
+      "with_rents": 1325,
+      "floor_plans": 5921,
+      "median_rent": 1581.0,
+      "median_psf": 1.77,
+      "pct_concession": 58.3,
+      "avg_discount_pct": 13.3,
+      "last_scraped": "2026-10-18T02:32:05+00:00"
+    },
+    {
+      "market": "AUS",
+      "communities": 1239,
+      "bfr": 54,
+      "mf": 1185,
+      "with_rents": 978,
+      "floor_plans": 5296,
+      "median_rent": 1479.0,
+      "median_psf": 1.65,
+      "pct_concession": 62.1,
+      "avg_discount_pct": 14.2,
+      "last_scraped": "2026-10-22T02:47:12+00:00"
+    },
+    {
+      "market": "CLT",
+      "communities": 917,
+      "bfr": 72,
+      "mf": 845,
+      "with_rents": 799,
+      "floor_plans": 4023,
+      "median_rent": 1590.0,
+      "median_psf": 1.67,
+      "pct_concession": 54.9,
+      "avg_discount_pct": 14.5,
+      "last_scraped": "2026-10-22T03:53:09+00:00"
+    },
+    {
+      "market": "DEN",
+      "communities": 827,
+      "bfr": 0,
+      "mf": 827,
+      "with_rents": 723,
+      "floor_plans": 4021,
+      "median_rent": 1899.0,
+      "median_psf": 2.16,
+      "pct_concession": 58.7,
+      "avg_discount_pct": 14.5,
+      "last_scraped": "2026-10-18T09:01:19+00:00"
+    },
+    {
+      "market": "MCO",
+      "communities": 795,
+      "bfr": 31,
+      "mf": 764,
+      "with_rents": 629,
+      "floor_plans": 3082,
+      "median_rent": 1799.0,
+      "median_psf": 1.84,
+      "pct_concession": 47.6,
+      "avg_discount_pct": 11.4,
+      "last_scraped": "2026-10-15T19:39:58+00:00"
+    },
+    {
+      "market": "TPA",
+      "communities": 779,
+      "bfr": 53,
+      "mf": 726,
+      "with_rents": 644,
+      "floor_plans": 3146,
+      "median_rent": 1816.5,
+      "median_psf": 1.89,
+      "pct_concession": 52.3,
+      "avg_discount_pct": 11.6,
+      "last_scraped": "2026-10-18T21:38:44+00:00"
+    },
+    {
+      "market": "NSH",
+      "communities": 694,
+      "bfr": 47,
+      "mf": 647,
+      "with_rents": 560,
+      "floor_plans": 2789,
+      "median_rent": 1647.0,
+      "median_psf": 1.8,
+      "pct_concession": 52.6,
+      "avg_discount_pct": 14.5,
+      "last_scraped": "2026-10-19T03:35:00+00:00"
+    },
+    {
+      "market": "LAS",
+      "communities": 594,
+      "bfr": 22,
+      "mf": 572,
+      "with_rents": 525,
+      "floor_plans": 2185,
+      "median_rent": 1532.0,
+      "median_psf": 1.61,
+      "pct_concession": 52.3,
+      "avg_discount_pct": 11.9,
+      "last_scraped": "2026-10-13T04:40:32+00:00"
+    },
+    {
+      "market": "RDU",
+      "communities": 523,
+      "bfr": 29,
+      "mf": 494,
+      "with_rents": 433,
+      "floor_plans": 2305,
+      "median_rent": 1547.0,
+      "median_psf": 1.59,
+      "pct_concession": 45.6,
+      "avg_discount_pct": 12.3,
+      "last_scraped": "2026-09-27T23:35:17+00:00"
+    },
+    {
+      "market": "JAX",
+      "communities": 391,
+      "bfr": 34,
+      "mf": 357,
+      "with_rents": 305,
+      "floor_plans": 1415,
+      "median_rent": 1567.0,
+      "median_psf": 1.53,
+      "pct_concession": 42.8,
+      "avg_discount_pct": 11.9,
+      "last_scraped": "2026-10-15T04:22:16+00:00"
+    },
+    {
+      "market": "HSV",
+      "communities": 165,
+      "bfr": 22,
+      "mf": 143,
+      "with_rents": 149,
+      "floor_plans": 673,
+      "median_rent": 1280.0,
+      "median_psf": 1.31,
+      "pct_concession": 41.6,
+      "avg_discount_pct": 13.7,
+      "last_scraped": "2026-10-18T09:10:23+00:00"
+    },
+    {
+      "market": "SRQ",
+      "communities": 96,
+      "bfr": 20,
+      "mf": 76,
+      "with_rents": 92,
+      "floor_plans": 425,
+      "median_rent": 1935.0,
+      "median_psf": 1.9,
+      "pct_concession": 63.1,
+      "avg_discount_pct": 16.4,
+      "last_scraped": "2026-10-19T04:23:32+00:00"
+    },
+    {
+      "market": "SAT",
+      "communities": 39,
+      "bfr": 39,
+      "mf": 0,
+      "with_rents": 35,
+      "floor_plans": 110,
+      "median_rent": 1999.0,
+      "median_psf": 1.39,
+      "pct_concession": 74.5,
+      "avg_discount_pct": 14.5,
+      "last_scraped": "2026-10-18T13:05:38+00:00"
+    },
+    {
+      "market": "TYS",
+      "communities": 14,
+      "bfr": 10,
+      "mf": 4,
+      "with_rents": 12,
+      "floor_plans": 41,
+      "median_rent": 2271.5,
+      "median_psf": 1.54,
+      "pct_concession": 39,
+      "avg_discount_pct": 10.5,
+      "last_scraped": "2026-10-22T04:05:06+00:00"
+    },
+    {
+      "market": "CHA",
+      "communities": 13,
+      "bfr": 12,
+      "mf": 1,
+      "with_rents": 11,
+      "floor_plans": 37,
+      "median_rent": 1868.0,
+      "median_psf": 1.4,
+      "pct_concession": 10.8,
+      "avg_discount_pct": 11.5,
+      "last_scraped": "2026-10-11T14:43:24+00:00"
+    },
+    {
+      "market": "CHI",
+      "communities": 11,
+      "bfr": 3,
+      "mf": 8,
+      "with_rents": 9,
+      "floor_plans": 39,
+      "median_rent": 2295.0,
+      "median_psf": 2.22,
+      "pct_concession": 0,
+      "avg_discount_pct": null,
+      "last_scraped": "2026-10-11T14:59:19+00:00"
+    },
+    {
+      "market": "GSP",
+      "communities": 11,
+      "bfr": 11,
+      "mf": 0,
+      "with_rents": 10,
+      "floor_plans": 29,
+      "median_rent": 2124.0,
+      "median_psf": 1.1,
+      "pct_concession": 44.8,
+      "avg_discount_pct": 11.9,
+      "last_scraped": "2026-10-20T22:07:28+00:00"
+    },
+    {
+      "market": "SAV",
+      "communities": 9,
+      "bfr": 9,
+      "mf": 0,
+      "with_rents": 9,
+      "floor_plans": 22,
+      "median_rent": 2044.5,
+      "median_psf": 1.21,
+      "pct_concession": 31.8,
+      "avg_discount_pct": 15.4,
+      "last_scraped": "2026-09-25T15:48:04+00:00"
+    }
+  ],
+  "vintage": [
+    {
+      "decade": "Pre-1970",
+      "communities": 151,
+      "bfr": 0,
+      "mf": 151,
+      "median_psf": 3.13
+    },
+    {
+      "decade": "1970s",
+      "communities": 1515,
+      "bfr": 0,
+      "mf": 1515,
+      "median_psf": 1.47
+    },
+    {
+      "decade": "1980s",
+      "communities": 2203,
+      "bfr": 2,
+      "mf": 2201,
+      "median_psf": 1.53
+    },
+    {
+      "decade": "1990s",
+      "communities": 1217,
+      "bfr": 6,
+      "mf": 1211,
+      "median_psf": 1.57
+    },
+    {
+      "decade": "2000s",
+      "communities": 1728,
+      "bfr": 5,
+      "mf": 1723,
+      "median_psf": 1.59
+    },
+    {
+      "decade": "2010s",
+      "communities": 2327,
+      "bfr": 4,
+      "mf": 2323,
+      "median_psf": 1.91
+    },
+    {
+      "decade": "2020s",
+      "communities": 2987,
+      "bfr": 29,
+      "mf": 2958,
+      "median_psf": 1.94
+    },
+    {
+      "decade": "Unknown",
+      "communities": 1272,
+      "bfr": 860,
+      "mf": 412,
+      "median_psf": 1.53
+    }
+  ],
+  "beds": [
+    {
+      "beds": 0,
+      "floor_plans": 4440,
+      "communities": 3302,
+      "median_rent": 1422,
+      "median_sf": 551,
+      "median_psf": 2.56,
+      "pct_concession": 53
+    },
+    {
+      "beds": 1,
+      "floor_plans": 26549,
+      "communities": 12215,
+      "median_rent": 1419,
+      "median_sf": 745,
+      "median_psf": 1.9,
+      "pct_concession": 49.3
+    },
+    {
+      "beds": 2,
+      "floor_plans": 26684,
+      "communities": 12330,
+      "median_rent": 1770,
+      "median_sf": 1098,
+      "median_psf": 1.61,
+      "pct_concession": 48.6
+    },
+    {
+      "beds": 3,
+      "floor_plans": 9915,
+      "communities": 7617,
+      "median_rent": 2170,
+      "median_sf": 1390,
+      "median_psf": 1.54,
+      "pct_concession": 50.4
+    },
+    {
+      "beds": 4,
+      "floor_plans": 963,
+      "communities": 688,
+      "median_rent": 2500,
+      "median_sf": 1891,
+      "median_psf": 1.3,
+      "pct_concession": 48.7
+    },
+    {
+      "beds": 5,
+      "floor_plans": 127,
+      "communities": 114,
+      "median_rent": 2769,
+      "median_sf": 2496,
+      "median_psf": 1.14,
+      "pct_concession": 33.1
+    },
+    {
+      "beds": 6,
+      "floor_plans": 4,
+      "communities": 4,
+      "median_rent": 3499,
+      "median_sf": 2926,
+      "median_psf": 1.06,
+      "pct_concession": 0
+    },
+    {
+      "beds": 7,
+      "floor_plans": 1,
+      "communities": 1,
+      "median_rent": null,
+      "median_sf": null,
+      "median_psf": null,
+      "pct_concession": 100
+    },
+    {
+      "beds": 10,
+      "floor_plans": 1,
+      "communities": 1,
+      "median_rent": 1947,
+      "median_sf": 692,
+      "median_psf": 2.81,
+      "pct_concession": 100
+    }
+  ],
+  "asset_class": [
+    {
+      "product": "mf",
+      "structure": "unspecified",
+      "floor_plans": 53030,
+      "communities": 9841,
+      "median_rent": 1630,
+      "median_sf": 954
+    },
+    {
+      "product": "mf",
+      "structure": "mf",
+      "floor_plans": 12153,
+      "communities": 3056,
+      "median_rent": 1581,
+      "median_sf": 912
+    },
+    {
+      "product": "bfr",
+      "structure": "unspecified",
+      "floor_plans": 2550,
+      "communities": 740,
+      "median_rent": 2228,
+      "median_sf": 1494
+    },
+    {
+      "product": "mf",
+      "structure": "th",
+      "floor_plans": 561,
+      "communities": 284,
+      "median_rent": 1999,
+      "median_sf": 1277
+    },
+    {
+      "product": "bfr",
+      "structure": "mf",
+      "floor_plans": 161,
+      "communities": 68,
+      "median_rent": 2058,
+      "median_sf": 1477
+    },
+    {
+      "product": "bfr",
+      "structure": "th",
+      "floor_plans": 152,
+      "communities": 70,
+      "median_rent": 2124,
+      "median_sf": 1562
+    },
+    {
+      "product": "bfr",
+      "structure": "sfd",
+      "floor_plans": 145,
+      "communities": 52,
+      "median_rent": 2149,
+      "median_sf": 1707
+    },
+    {
+      "product": "mf",
+      "structure": "sfd",
+      "floor_plans": 17,
+      "communities": 4,
+      "median_rent": 2076,
+      "median_sf": 1340
+    }
+  ],
+  "extraction": [
+    {
+      "engine": "rentcafe",
+      "observations": 12133
+    },
+    {
+      "engine": "LLM (Haiku / Luna)",
+      "observations": 11908
+    },
+    {
+      "engine": "sightmap",
+      "observations": 9596
+    },
+    {
+      "engine": "knock",
+      "observations": 6105
+    },
+    {
+      "engine": "entrata",
+      "observations": 3749
+    },
+    {
+      "engine": "razz",
+      "observations": 1045
+    },
+    {
+      "engine": "apartments247",
+      "observations": 954
+    },
+    {
+      "engine": "realpage",
+      "observations": 877
+    },
+    {
+      "engine": "repli360",
+      "observations": 432
+    },
+    {
+      "engine": "appfolio",
+      "observations": 327
+    },
+    {
+      "engine": "amh",
+      "observations": 325
+    },
+    {
+      "engine": "avalon",
+      "observations": 170
+    },
+    {
+      "engine": "air_communities",
+      "observations": 120
+    },
+    {
+      "engine": "rently",
+      "observations": 96
+    },
+    {
+      "engine": "rentcafe_marketplace",
+      "observations": 83
+    },
+    {
+      "engine": "resman",
+      "observations": 76
+    },
+    {
+      "engine": "ark",
+      "observations": 38
+    },
+    {
+      "engine": "rise48",
+      "observations": 28
+    },
+    {
+      "engine": "gounion",
+      "observations": 24
+    },
+    {
+      "engine": "jsonld_offers",
+      "observations": 7
+    },
+    {
+      "engine": "firstkey",
+      "observations": 4
+    }
+  ],
+  "activity": [
+    {
+      "week": "2026-06-29",
+      "observations": 281,
+      "communities": 75,
+      "markets": 1
+    },
+    {
+      "week": "2026-07-06",
+      "observations": 216,
+      "communities": 212,
+      "markets": 1
+    },
+    {
+      "week": "2026-07-13",
+      "observations": 688,
+      "communities": 655,
+      "markets": 18
+    },
+    {
+      "week": "2026-07-27",
+      "observations": 1856,
+      "communities": 999,
+      "markets": 13
+    },
+    {
+      "week": "2026-08-03",
+      "observations": 4615,
+      "communities": 2057,
+      "markets": 18
+    },
+    {
+      "week": "2026-08-10",
+      "observations": 2164,
+      "communities": 1933,
+      "markets": 18
+    },
+    {
+      "week": "2026-08-17",
+      "observations": 6551,
+      "communities": 4472,
+      "markets": 18
+    },
+    {
+      "week": "2026-08-24",
+      "observations": 7791,
+      "communities": 7018,
+      "markets": 18
+    },
+    {
+      "week": "2026-08-31",
+      "observations": 7552,
+      "communities": 6934,
+      "markets": 16
+    },
+    {
+      "week": "2026-09-07",
+      "observations": 4935,
+      "communities": 4932,
+      "markets": 10
+    },
+    {
+      "week": "2026-09-14",
+      "observations": 5096,
+      "communities": 5091,
+      "markets": 8
+    },
+    {
+      "week": "2026-09-21",
+      "observations": 5188,
+      "communities": 5034,
+      "markets": 16
+    },
+    {
+      "week": "2026-09-28",
+      "observations": 4321,
+      "communities": 4199,
+      "markets": 17
+    },
+    {
+      "week": "2026-10-05",
+      "observations": 4915,
+      "communities": 4891,
+      "markets": 14
+    },
+    {
+      "week": "2026-10-12",
+      "observations": 4906,
+      "communities": 4796,
+      "markets": 13
+    },
+    {
+      "week": "2026-10-19",
+      "observations": 2690,
+      "communities": 2686,
+      "markets": 9
+    }
+  ],
+  "revisit": {
+    "observed": 13626,
+    "twice_plus": 10698,
+    "thrice_plus": 8066,
+    "avg_observations": 4.6
+  },
+  "rent_moves": {
+    "communities": 10066,
+    "moved_up": 4292,
+    "moved_down": 4809,
+    "unchanged": 965,
+    "avg_span_days": 48
+  },
+  "samples": {
+    "DFW": [
+      {
+        "name": "Avilla Traditions",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2021,
+        "year_source": "Tarrant County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1949
+      },
+      {
+        "name": "Elevate at Skyline Townhomes",
+        "product": "BFR",
+        "units": 136,
+        "units_source": "Collin County, TX property record",
+        "year_built": 2020,
+        "year_source": "Collin County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1772
+      },
+      {
+        "name": "Patriot Estates",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-22",
+        "avg_rent": 2335
+      },
+      {
+        "name": "The Ridge at Lancaster",
+        "product": "BFR",
+        "units": 300,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 2022,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-22",
+        "avg_rent": 1683
+      },
+      {
+        "name": "The Villages 3Eighty",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2015,
+        "year_source": "Denton County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1773
+      },
+      {
+        "name": "Cedar Lakes",
+        "product": "MF",
+        "units": 196,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 2022,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1365
+      },
+      {
+        "name": "Converge Justin",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2025,
+        "year_source": "Denton County, TX property record",
+        "last_seen": "2026-09-22",
+        "avg_rent": 1700
+      },
+      {
+        "name": "Devi at Valley Ranch",
+        "product": "MF",
+        "units": 267,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1998,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1810
+      },
+      {
+        "name": "Discovery Park Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2017,
+        "year_source": "Denton County, TX property record",
+        "last_seen": "2026-09-23",
+        "avg_rent": 1214
+      },
+      {
+        "name": "Estates On Frankford",
+        "product": "MF",
+        "units": 467,
+        "units_source": "Collin County, TX property record",
+        "year_built": 1995,
+        "year_source": "Collin County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1474
+      },
+      {
+        "name": "Gateway East at the Arts District",
+        "product": "MF",
+        "units": 420,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1998,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-22",
+        "avg_rent": 1655
+      },
+      {
+        "name": "Knox Heights",
+        "product": "MF",
+        "units": 182,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 2016,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-23",
+        "avg_rent": 3253
+      },
+      {
+        "name": "MAA Highlands North",
+        "product": "MF",
+        "units": 232,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1986,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1419
+      },
+      {
+        "name": "Montfort Crossing",
+        "product": "MF",
+        "units": 178,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1978,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-23",
+        "avg_rent": 1022
+      },
+      {
+        "name": "Princeton Court Apartments",
+        "product": "MF",
+        "units": 260,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1975,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 780
+      },
+      {
+        "name": "Somerset at Spring Creek",
+        "product": "MF",
+        "units": 208,
+        "units_source": "Collin County, TX property record",
+        "year_built": 1999,
+        "year_source": "Collin County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1815
+      },
+      {
+        "name": "The Ace Apartments",
+        "product": "MF",
+        "units": 178,
+        "units_source": "Dallas County, TX property record",
+        "year_built": 1972,
+        "year_source": "Dallas County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1192
+      },
+      {
+        "name": "The Brixton Apartments",
+        "product": "MF",
+        "units": 224,
+        "units_source": "Collin County, TX property record",
+        "year_built": 1996,
+        "year_source": "Collin County, TX property record",
+        "last_seen": "2026-09-22",
+        "avg_rent": 1495
+      },
+      {
+        "name": "The Buckley Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Collin County, TX property record",
+        "last_seen": "2026-09-23",
+        "avg_rent": 2493
+      },
+      {
+        "name": "The Greens Of Fossil Lake",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2007,
+        "year_source": "Tarrant County, TX property record",
+        "last_seen": "2026-09-24",
+        "avg_rent": 1400
+      }
+    ],
+    "HOU": [
+      {
+        "name": "Crossing at Timbergrove",
+        "product": "BFR",
+        "units": 97,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2022,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 3080
+      },
+      {
+        "name": "Millers at Elyson",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2260
+      },
+      {
+        "name": "Mirror Lake Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2019,
+        "year_source": "Brazoria County, TX property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2399
+      },
+      {
+        "name": "The Village at Granger Pines",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2021,
+        "year_source": "Montgomery County, TX property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2005
+      },
+      {
+        "name": "Villas at Tamarron",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2503
+      },
+      {
+        "name": "3122 Leeland St",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-20",
+        "avg_rent": 1709
+      },
+      {
+        "name": "Allora Parkland",
+        "product": "MF",
+        "units": 378,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2023,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-04",
+        "avg_rent": 1626
+      },
+      {
+        "name": "Ashford Aberdeen Apartments",
+        "product": "MF",
+        "units": 656,
+        "units_source": "Harris County, TX property record",
+        "year_built": 1974,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 815
+      },
+      {
+        "name": "Crystal Falls",
+        "product": "MF",
+        "units": 165,
+        "units_source": "Harris County, TX property record",
+        "year_built": 1984,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 1117
+      },
+      {
+        "name": "Gables Metropolitan Uptown",
+        "product": "MF",
+        "units": 318,
+        "units_source": "Harris County, TX property record",
+        "year_built": 1994,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 1701
+      },
+      {
+        "name": "Grove at Sterling Ridge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2004,
+        "year_source": "Montgomery County, TX property record",
+        "last_seen": "2026-09-20",
+        "avg_rent": 1496
+      },
+      {
+        "name": "Lenox Heights",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2023,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 2300
+      },
+      {
+        "name": "Novel River Oaks",
+        "product": "MF",
+        "units": 326,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2019,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 3567
+      },
+      {
+        "name": "Oakmoor Apartments",
+        "product": "MF",
+        "units": 248,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2006,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-04",
+        "avg_rent": 1166
+      },
+      {
+        "name": "Rayford\u2019s Edge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1982,
+        "year_source": "Montgomery County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 1098
+      },
+      {
+        "name": "Sire Kingwood",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Montgomery County, TX property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1785
+      },
+      {
+        "name": "The Commons At Hollyhock",
+        "product": "MF",
+        "units": 624,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2014,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-09-20",
+        "avg_rent": 1218
+      },
+      {
+        "name": "Toro Place",
+        "product": "MF",
+        "units": 320,
+        "units_source": "Harris County, TX property record",
+        "year_built": 1982,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-20",
+        "avg_rent": 960
+      },
+      {
+        "name": "Tuscany Walk Apartments",
+        "product": "MF",
+        "units": 165,
+        "units_source": "Harris County, TX property record",
+        "year_built": 2013,
+        "year_source": "Harris County, TX property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1886
+      },
+      {
+        "name": "Willow Lake Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2001,
+        "year_source": "Fort Bend County, TX property record",
+        "last_seen": "2026-10-02",
+        "avg_rent": 1753
+      }
+    ],
+    "ATL": [
+      {
+        "name": "Citizens Square Villas",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 1663
+      },
+      {
+        "name": "Covey Homes Walker Ridge",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 1817
+      },
+      {
+        "name": "Harmon Cedar Run",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2779
+      },
+      {
+        "name": "Parkwood Terrace",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2177
+      },
+      {
+        "name": "Summerwell Cedarcrest",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2994
+      },
+      {
+        "name": "Aero 24Twenty",
+        "product": "MF",
+        "units": 148,
+        "units_source": "Fulton County, GA property record",
+        "year_built": 1971,
+        "year_source": "Fulton County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1298
+      },
+      {
+        "name": "Corners at Holcomb Bridge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1974,
+        "year_source": "Gwinnett County, GA property record",
+        "last_seen": "2026-10-13",
+        "avg_rent": 1581
+      },
+      {
+        "name": "District at Parkview",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2023,
+        "year_source": "Gwinnett County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1972
+      },
+      {
+        "name": "Elite at 285",
+        "product": "MF",
+        "units": 296,
+        "units_source": "Clayton County, GA property record",
+        "year_built": 1972,
+        "year_source": "Clayton County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1209
+      },
+      {
+        "name": "Evergreen Lenox Park",
+        "product": "MF",
+        "units": 164,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 1995,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1721
+      },
+      {
+        "name": "Millworks",
+        "product": "MF",
+        "units": 345,
+        "units_source": "Fulton County, GA property record",
+        "year_built": 2017,
+        "year_source": "Fulton County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1887
+      },
+      {
+        "name": "Modera Decatur",
+        "product": "MF",
+        "units": 194,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 2022,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 2800
+      },
+      {
+        "name": "Renew MidTown",
+        "product": "MF",
+        "units": 219,
+        "units_source": "Fulton County, GA property record",
+        "year_built": 1987,
+        "year_source": "Fulton County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1354
+      },
+      {
+        "name": "Reserve Decatur",
+        "product": "MF",
+        "units": 298,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 2015,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-13",
+        "avg_rent": 2266
+      },
+      {
+        "name": "Retreat at Stonecrest",
+        "product": "MF",
+        "units": 276,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 2003,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1430
+      },
+      {
+        "name": "The Bishop",
+        "product": "MF",
+        "units": 425,
+        "units_source": "Fulton County, GA property record",
+        "year_built": 2018,
+        "year_source": "Fulton County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1672
+      },
+      {
+        "name": "The Brooke",
+        "product": "MF",
+        "units": 537,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 2002,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1551
+      },
+      {
+        "name": "The Wynne",
+        "product": "MF",
+        "units": 646,
+        "units_source": "DeKalb County, GA property record",
+        "year_built": 1985,
+        "year_source": "DeKalb County, GA property record",
+        "last_seen": "2026-10-13",
+        "avg_rent": 1380
+      },
+      {
+        "name": "Tuscany at Lindbergh",
+        "product": "MF",
+        "units": 324,
+        "units_source": "Fulton County, GA property record",
+        "year_built": 2001,
+        "year_source": "Fulton County, GA property record",
+        "last_seen": "2026-10-13",
+        "avg_rent": 1833
+      },
+      {
+        "name": "Westshire Townhome Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-14",
+        "avg_rent": 1355
+      }
+    ],
+    "LAX": [
+      {
+        "name": "104 Brookstone Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 2398
+      },
+      {
+        "name": "Adagio On The Green",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 3326
+      },
+      {
+        "name": "Broadstone Arden",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 3238
+      },
+      {
+        "name": "Calypso",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 3157
+      },
+      {
+        "name": "Cordova Park",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1988,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 1787
+      },
+      {
+        "name": "Esencia Sur",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 3620
+      },
+      {
+        "name": "Lillian",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 5217
+      },
+      {
+        "name": "Lucia",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1971,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 2478
+      },
+      {
+        "name": "Parc Pointe Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 2175
+      },
+      {
+        "name": "Parker",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1963,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 1933
+      },
+      {
+        "name": "Pine Meadows",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-08",
+        "avg_rent": 2594
+      },
+      {
+        "name": "Sunset Ridge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1730
+      },
+      {
+        "name": "Sycamore Lane",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 2312
+      },
+      {
+        "name": "The Huntington (8400 Edinger Ave)",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 2502
+      },
+      {
+        "name": "Twelve31",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1977,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 2390
+      },
+      {
+        "name": "Victor on Venice",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2006,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 3576
+      },
+      {
+        "name": "Walnut Ridge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1980,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 2296
+      },
+      {
+        "name": "WILCO Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 2126
+      },
+      {
+        "name": "Willow Tree",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1970,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-08",
+        "avg_rent": 2717
+      },
+      {
+        "name": "Woodglen Apartment Homes",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1979,
+        "year_source": "Los Angeles County, CA property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 2270
+      }
+    ],
+    "PHX": [
+      {
+        "name": "Avanterra Queen Creek",
+        "product": "BFR",
+        "units": 130,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2024,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-16",
+        "avg_rent": 2381
+      },
+      {
+        "name": "BB Living at Union Park",
+        "product": "BFR",
+        "units": 154,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2023,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-16",
+        "avg_rent": 3315
+      },
+      {
+        "name": "Broadway North at Mason Ranch",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-16",
+        "avg_rent": 2472
+      },
+      {
+        "name": "Solana Place at Carlton Commons",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-16",
+        "avg_rent": 1839
+      },
+      {
+        "name": "Town Germann",
+        "product": "BFR",
+        "units": 209,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2023,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-16",
+        "avg_rent": 2432
+      },
+      {
+        "name": "32 Arcadia",
+        "product": "MF",
+        "units": 104,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 1972,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 900
+      },
+      {
+        "name": "Adiamo Palm Valley",
+        "product": "MF",
+        "units": 302,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2005,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1755
+      },
+      {
+        "name": "Agave Ridge",
+        "product": "MF",
+        "units": 148,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 1972,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1525
+      },
+      {
+        "name": "Alta Avondale",
+        "product": "MF",
+        "units": 360,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2024,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1610
+      },
+      {
+        "name": "Alta Uptown",
+        "product": "MF",
+        "units": 415,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2024,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 2215
+      },
+      {
+        "name": "Borrego at Spectrum",
+        "product": "MF",
+        "units": 264,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2006,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1804
+      },
+      {
+        "name": "Camden Sotelo",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1856
+      },
+      {
+        "name": "Halogen Apartments",
+        "product": "MF",
+        "units": 278,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2023,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1591
+      },
+      {
+        "name": "IMT Desert Ridge",
+        "product": "MF",
+        "units": 370,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2013,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1713
+      },
+      {
+        "name": "Latitude Apartments and Casitas",
+        "product": "MF",
+        "units": 672,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 1979,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1314
+      },
+      {
+        "name": "Marquis at Chandler",
+        "product": "MF",
+        "units": 340,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2019,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-16",
+        "avg_rent": 1817
+      },
+      {
+        "name": "Meritum Sheely Farms",
+        "product": "MF",
+        "units": 678,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2023,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-17",
+        "avg_rent": 1755
+      },
+      {
+        "name": "Sonoma Valley Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-17",
+        "avg_rent": 1510
+      },
+      {
+        "name": "Tides on 27th",
+        "product": "MF",
+        "units": 260,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 1982,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-16",
+        "avg_rent": 778
+      },
+      {
+        "name": "Waterford at Superstition Springs",
+        "product": "MF",
+        "units": 280,
+        "units_source": "Maricopa County, AZ property record",
+        "year_built": 2006,
+        "year_source": "Maricopa County, AZ property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1634
+      }
+    ],
+    "AUS": [
+      {
+        "name": "Arista San Gabriel",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Williamson County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 2673
+      },
+      {
+        "name": "Avilla Berry Creek Highlands",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-21",
+        "avg_rent": 1725
+      },
+      {
+        "name": "BB Living Sweetwater Crossing",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2025,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 3577
+      },
+      {
+        "name": "Beacon at Bunton Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-06",
+        "avg_rent": 1873
+      },
+      {
+        "name": "LC Pflugerville",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1849
+      },
+      {
+        "name": "3500 Westlake Apartments",
+        "product": "MF",
+        "units": 160,
+        "units_source": "City of Austin building permits",
+        "year_built": 2007,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 2337
+      },
+      {
+        "name": "Aria Grand",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2020,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-08-10",
+        "avg_rent": 1300
+      },
+      {
+        "name": "Arrington Ridge Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2015,
+        "year_source": "Williamson County, TX property record",
+        "last_seen": "2026-10-22",
+        "avg_rent": 1293
+      },
+      {
+        "name": "Ashton Austin",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2009,
+        "year_source": "City of Austin building permits",
+        "last_seen": "2026-10-21",
+        "avg_rent": 3778
+      },
+      {
+        "name": "Austin Avenue",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2021,
+        "year_source": "Williamson County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1270
+      },
+      {
+        "name": "Citizen House Blue Bluff",
+        "product": "MF",
+        "units": 354,
+        "units_source": "City of Austin building permits",
+        "year_built": 2024,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1449
+      },
+      {
+        "name": "Eastside Station",
+        "product": "MF",
+        "units": 360,
+        "units_source": "City of Austin building permits",
+        "year_built": 2017,
+        "year_source": "City of Austin building permits",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1758
+      },
+      {
+        "name": "Flatz 512",
+        "product": "MF",
+        "units": 384,
+        "units_source": "Hays County, TX property record",
+        "year_built": 2025,
+        "year_source": "Hays County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1191
+      },
+      {
+        "name": "Keystone",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1981,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-22",
+        "avg_rent": 799
+      },
+      {
+        "name": "MAA Windmill Hill",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2021,
+        "year_source": "Williamson County, TX property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 1545
+      },
+      {
+        "name": "Residences at Rubi",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-21",
+        "avg_rent": 1188
+      },
+      {
+        "name": "Sage at Franklin Park",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2026,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-08-10",
+        "avg_rent": 1781
+      },
+      {
+        "name": "Sunchase (1200 Sunrise Dr)",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1985,
+        "year_source": "Williamson County, TX property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 895
+      },
+      {
+        "name": "The Quincy",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-21",
+        "avg_rent": 2950
+      },
+      {
+        "name": "Travis At The Lake",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2019,
+        "year_source": "Travis County, TX property record",
+        "last_seen": "2026-10-22",
+        "avg_rent": 1847
+      }
+    ],
+    "CLT": [
+      {
+        "name": "Cascadia at Highland Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 2374
+      },
+      {
+        "name": "Cortland Whitehall",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1539
+      },
+      {
+        "name": "Founders Point",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 2197
+      },
+      {
+        "name": "Newton Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-21",
+        "avg_rent": 1999
+      },
+      {
+        "name": "Townhomes at Bridlestone",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2020,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-21",
+        "avg_rent": 3309
+      },
+      {
+        "name": "Bromley Village Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1403
+      },
+      {
+        "name": "Cottonwood Reserve I & II",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2004,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1397
+      },
+      {
+        "name": "Hawthorne Waterstone",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2020,
+        "year_source": "Iredell County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1669
+      },
+      {
+        "name": "Johnston Creek Crossing",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1982,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1211
+      },
+      {
+        "name": "LakePointe",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2023,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1716
+      },
+      {
+        "name": "Link Apartments CYKEL",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1219
+      },
+      {
+        "name": "Oro Ballantyne",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 3507
+      },
+      {
+        "name": "Rise Avalon",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1999,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1549
+      },
+      {
+        "name": "Stoney Trace",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1990,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1246
+      },
+      {
+        "name": "The Apartments At Blakeney",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2007,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1765
+      },
+      {
+        "name": "Village Station",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1423
+      },
+      {
+        "name": "Vivo Living Arbor View",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1997,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1059
+      },
+      {
+        "name": "Whisper Creek",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1463
+      },
+      {
+        "name": "Whitehall Parc Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-07",
+        "avg_rent": 1474
+      },
+      {
+        "name": "Willows At The University",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2017,
+        "year_source": "Mecklenburg County, NC property record",
+        "last_seen": "2026-10-07",
+        "avg_rent": 1471
+      }
+    ],
+    "DEN": [
+      {
+        "name": "Araceli DTC",
+        "product": "MF",
+        "units": 236,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2022,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 3215
+      },
+      {
+        "name": "Arrive 800 Penn Luxury Apartment Homes",
+        "product": "MF",
+        "units": 195,
+        "units_source": "Denver County, CO property record",
+        "year_built": 1974,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2407
+      },
+      {
+        "name": "Avail",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2016,
+        "year_source": "Arapahoe County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1956
+      },
+      {
+        "name": "Bell Broomfield",
+        "product": "MF",
+        "units": 292,
+        "units_source": "Broomfield County, CO property record",
+        "year_built": 2017,
+        "year_source": "Broomfield County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2042
+      },
+      {
+        "name": "Botanica Town Center",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1840
+      },
+      {
+        "name": "Compass Meridian",
+        "product": "MF",
+        "units": 448,
+        "units_source": "Douglas County, CO property record",
+        "year_built": 2021,
+        "year_source": "Douglas County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2522
+      },
+      {
+        "name": "Cortland on Cherry Creek",
+        "product": "MF",
+        "units": 384,
+        "units_source": "Arapahoe County, CO property record",
+        "year_built": 1995,
+        "year_source": "Arapahoe County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1781
+      },
+      {
+        "name": "Edge 26",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1366
+      },
+      {
+        "name": "Gables Speer Blvd",
+        "product": "MF",
+        "units": 221,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2015,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2059
+      },
+      {
+        "name": "Golden Nugget",
+        "product": "MF",
+        "units": 208,
+        "units_source": "Arapahoe County, CO property record",
+        "year_built": 1971,
+        "year_source": "Arapahoe County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1117
+      },
+      {
+        "name": "Griffis Cheesman Park",
+        "product": "MF",
+        "units": 156,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2013,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2836
+      },
+      {
+        "name": "Incline 45",
+        "product": "MF",
+        "units": 270,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2019,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1687
+      },
+      {
+        "name": "Legacy Ridge",
+        "product": "MF",
+        "units": 232,
+        "units_source": "Adams County, CO property record",
+        "year_built": 1998,
+        "year_source": "Adams County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1898
+      },
+      {
+        "name": "Milo",
+        "product": "MF",
+        "units": 319,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2018,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2014
+      },
+      {
+        "name": "Sage at Panorama",
+        "product": "MF",
+        "units": 324,
+        "units_source": "Denver County, CO property record",
+        "year_built": 1981,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1142
+      },
+      {
+        "name": "The Fillmore at Copperleaf",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2652
+      },
+      {
+        "name": "The Fitzgerald",
+        "product": "MF",
+        "units": 282,
+        "units_source": "Denver County, CO property record",
+        "year_built": 2019,
+        "year_source": "Denver County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 3154
+      },
+      {
+        "name": "The Promenade at Hunters Glen",
+        "product": "MF",
+        "units": 264,
+        "units_source": "Adams County, CO property record",
+        "year_built": 1998,
+        "year_source": "Adams County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1484
+      },
+      {
+        "name": "Westlink At Oak Station",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1799
+      },
+      {
+        "name": "Willow Run Village",
+        "product": "MF",
+        "units": 216,
+        "units_source": "Broomfield County, CO property record",
+        "year_built": 1999,
+        "year_source": "Broomfield County, CO property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1943
+      }
+    ],
+    "MCO": [
+      {
+        "name": "Eleven Oaks",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2140
+      },
+      {
+        "name": "Osceola Village",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Osceola County, FL property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 2346
+      },
+      {
+        "name": "Sky Lakes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Osceola County, FL property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 2769
+      },
+      {
+        "name": "Summerwell Avian Pointe",
+        "product": "BFR",
+        "units": 174,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2739
+      },
+      {
+        "name": "Yardly Bellalago",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Osceola County, FL property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1813
+      },
+      {
+        "name": "Advenir at Magnolia",
+        "product": "MF",
+        "units": 272,
+        "units_source": "Seminole County, FL property record",
+        "year_built": 1973,
+        "year_source": "Seminole County, FL property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1198
+      },
+      {
+        "name": "Amalfi Apartments",
+        "product": "MF",
+        "units": 252,
+        "units_source": "Orange County, FL property record",
+        "year_built": 1989,
+        "year_source": "Orange County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 1399
+      },
+      {
+        "name": "Avery Place Villas",
+        "product": "MF",
+        "units": 171,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-15",
+        "avg_rent": 1968
+      },
+      {
+        "name": "BellaNova at JubiLee Park",
+        "product": "MF",
+        "units": 312,
+        "units_source": "Orange County, FL property record",
+        "year_built": 2019,
+        "year_source": "Orange County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 2052
+      },
+      {
+        "name": "CODA",
+        "product": "MF",
+        "units": 296,
+        "units_source": "Orange County, FL property record",
+        "year_built": 2019,
+        "year_source": "Orange County, FL property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1760
+      },
+      {
+        "name": "Emerson at Celebration",
+        "product": "MF",
+        "units": 350,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": 2014,
+        "year_source": "Osceola County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 2121
+      },
+      {
+        "name": "Integra Avalon",
+        "product": "MF",
+        "units": 276,
+        "units_source": "Orange County, FL property record",
+        "year_built": 2025,
+        "year_source": "Orange County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 1765
+      },
+      {
+        "name": "Integra Lakes",
+        "product": "MF",
+        "units": 203,
+        "units_source": "Seminole County, FL property record",
+        "year_built": 2017,
+        "year_source": "Seminole County, FL property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1738
+      },
+      {
+        "name": "Oakleaf Village",
+        "product": "MF",
+        "units": 356,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": 2008,
+        "year_source": "Lake County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 1531
+      },
+      {
+        "name": "Seville On The Green",
+        "product": "MF",
+        "units": 170,
+        "units_source": "Seminole County, FL property record",
+        "year_built": 1986,
+        "year_source": "Seminole County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 1493
+      },
+      {
+        "name": "Tesora",
+        "product": "MF",
+        "units": 310,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": 2024,
+        "year_source": "Lake County, FL property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1762
+      },
+      {
+        "name": "The Baldwin",
+        "product": "MF",
+        "units": 270,
+        "units_source": "Orange County, FL property record",
+        "year_built": 2022,
+        "year_source": "Orange County, FL property record",
+        "last_seen": "2026-10-14",
+        "avg_rent": 1835
+      },
+      {
+        "name": "The Fairways at Lake Mary",
+        "product": "MF",
+        "units": 272,
+        "units_source": "Seminole County, FL property record",
+        "year_built": 1998,
+        "year_source": "Seminole County, FL property record",
+        "last_seen": "2026-10-15",
+        "avg_rent": 1822
+      },
+      {
+        "name": "The Rowan",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-15",
+        "avg_rent": 2323
+      }
+    ],
+    "TPA": [
+      {
+        "name": "Balcara 301 at Sun City",
+        "product": "BFR",
+        "units": 120,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 2023,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2099
+      },
+      {
+        "name": "Glen Lakes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2145
+      },
+      {
+        "name": "Parkside",
+        "product": "BFR",
+        "units": 34,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 2025,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-09-17",
+        "avg_rent": 2125
+      },
+      {
+        "name": "Woodlake Preserve",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 1987,
+        "year_source": "Pasco County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2772
+      },
+      {
+        "name": "Ascend Mirada",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2025,
+        "year_source": "Pasco County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1823
+      },
+      {
+        "name": "Avalon Park Wesley Chapel",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Pasco County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2233
+      },
+      {
+        "name": "Compton Place",
+        "product": "MF",
+        "units": 384,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 1999,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1618
+      },
+      {
+        "name": "Emerald at MetWest",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 3143
+      },
+      {
+        "name": "Harbourtowne at Country Woods",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1745
+      },
+      {
+        "name": "Madison Oaks",
+        "product": "MF",
+        "units": 250,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1565
+      },
+      {
+        "name": "Marina Walk",
+        "product": "MF",
+        "units": 245,
+        "units_source": "Pinellas County, FL property record",
+        "year_built": 2022,
+        "year_source": "Pinellas County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2680
+      },
+      {
+        "name": "Palmera at Gandy",
+        "product": "MF",
+        "units": 276,
+        "units_source": "Pinellas County, FL property record",
+        "year_built": 1975,
+        "year_source": "Pinellas County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1760
+      },
+      {
+        "name": "Park at Lake Magdalene",
+        "product": "MF",
+        "units": 504,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 1974,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1443
+      },
+      {
+        "name": "Retreat At Crosstown",
+        "product": "MF",
+        "units": 316,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 1988,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1528
+      },
+      {
+        "name": "Sweetwater",
+        "product": "MF",
+        "units": 176,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": 2006,
+        "year_source": "Pasco County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1625
+      },
+      {
+        "name": "The Carlisle at Dunedin",
+        "product": "MF",
+        "units": 160,
+        "units_source": "Pinellas County, FL property record",
+        "year_built": 1974,
+        "year_source": "Pinellas County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1827
+      },
+      {
+        "name": "The Park at Valenza",
+        "product": "MF",
+        "units": 776,
+        "units_source": "Hillsborough County, FL property record",
+        "year_built": 1991,
+        "year_source": "Hillsborough County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1408
+      },
+      {
+        "name": "Trinity Palms at Seven Springs",
+        "product": "MF",
+        "units": 390,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": 2005,
+        "year_source": "Pasco County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1480
+      },
+      {
+        "name": "WaterView Echelon City Center",
+        "product": "MF",
+        "units": 226,
+        "units_source": "Pinellas County, FL property record",
+        "year_built": 2021,
+        "year_source": "Pinellas County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2398
+      }
+    ],
+    "NSH": [
+      {
+        "name": "1082 Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2225
+      },
+      {
+        "name": "Mountain Springs",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2514
+      },
+      {
+        "name": "Saddlebrook Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1406
+      },
+      {
+        "name": "South Maple Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1950
+      },
+      {
+        "name": "Tricon Cedar Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2456
+      },
+      {
+        "name": "Cantare At Indian Lake Village",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 1717
+      },
+      {
+        "name": "Carillon",
+        "product": "MF",
+        "units": 306,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 2016,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 2106
+      },
+      {
+        "name": "Coda",
+        "product": "MF",
+        "units": 150,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 2025,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2009
+      },
+      {
+        "name": "Everett Nashville Yards",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 3616
+      },
+      {
+        "name": "Hickory View",
+        "product": "MF",
+        "units": 120,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 1981,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1324
+      },
+      {
+        "name": "LC Murfreesboro",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 1578
+      },
+      {
+        "name": "Lyric On Bell",
+        "product": "MF",
+        "units": 336,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 1985,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-02",
+        "avg_rent": 1185
+      },
+      {
+        "name": "MAA Nashville West",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1471
+      },
+      {
+        "name": "MAA Park",
+        "product": "MF",
+        "units": 440,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 1986,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1229
+      },
+      {
+        "name": "Madison Century Farms",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1931
+      },
+      {
+        "name": "Prima At Paseo South Gulch",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2921
+      },
+      {
+        "name": "Sage North",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1608
+      },
+      {
+        "name": "The Anson",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2020,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 1622
+      },
+      {
+        "name": "The Bend Nashville",
+        "product": "MF",
+        "units": 112,
+        "units_source": "Davidson County, TN property record",
+        "year_built": 1984,
+        "year_source": "Davidson County, TN property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1401
+      },
+      {
+        "name": "The Place at Fifth + Broadway",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 3414
+      }
+    ],
+    "LAS": [
+      {
+        "name": "Cactus Cliff",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2640
+      },
+      {
+        "name": "Desert Heights at Green Valley",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2602
+      },
+      {
+        "name": "Pine Landing in Cadence",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 2578
+      },
+      {
+        "name": "Serenity Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2520
+      },
+      {
+        "name": "The Alowyn Homes at Centennial",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 1831
+      },
+      {
+        "name": "5400 Vistas",
+        "product": "MF",
+        "units": 204,
+        "units_source": "Clark County, NV property record",
+        "year_built": 1985,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1219
+      },
+      {
+        "name": "Arium Meadows",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 1603
+      },
+      {
+        "name": "Aspire at Grand Canyon",
+        "product": "MF",
+        "units": 288,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2021,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1854
+      },
+      {
+        "name": "Colonial Grand At Desert Vista",
+        "product": "MF",
+        "units": 380,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2008,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1488
+      },
+      {
+        "name": "Esper",
+        "product": "MF",
+        "units": 456,
+        "units_source": "Clark County, NV property record",
+        "year_built": 1981,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 929
+      },
+      {
+        "name": "Indigo at Sunset Park",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-12",
+        "avg_rent": 1226
+      },
+      {
+        "name": "Kaktus Life",
+        "product": "MF",
+        "units": 210,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2019,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1859
+      },
+      {
+        "name": "North Park Living Ph 1",
+        "product": "MF",
+        "units": 380,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2024,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1649
+      },
+      {
+        "name": "Park Vista Apartments",
+        "product": "MF",
+        "units": 156,
+        "units_source": "Clark County, NV property record",
+        "year_built": 1984,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1128
+      },
+      {
+        "name": "Spur",
+        "product": "MF",
+        "units": 286,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2018,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1645
+      },
+      {
+        "name": "Sunset Terrace",
+        "product": "MF",
+        "units": 220,
+        "units_source": "Clark County, NV property record",
+        "year_built": 1981,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1161
+      },
+      {
+        "name": "The Covington by Picerne",
+        "product": "MF",
+        "units": 359,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2004,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1686
+      },
+      {
+        "name": "The Hendry",
+        "product": "MF",
+        "units": 347,
+        "units_source": "Clark County, NV property record",
+        "year_built": 2020,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1495
+      },
+      {
+        "name": "The Quinn",
+        "product": "MF",
+        "units": 237,
+        "units_source": "Clark County, NV property record",
+        "year_built": 1991,
+        "year_source": "Clark County, NV property record",
+        "last_seen": "2026-10-12",
+        "avg_rent": 1221
+      }
+    ],
+    "RDU": [
+      {
+        "name": "ABODE Arringdon",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 2487
+      },
+      {
+        "name": "Porchlight Brier Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 2512
+      },
+      {
+        "name": "Riverwood Ranch Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1250
+      },
+      {
+        "name": "Summerwell Harmony",
+        "product": "BFR",
+        "units": 189,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2023,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-25",
+        "avg_rent": 2514
+      },
+      {
+        "name": "Walton Farms",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1397
+      },
+      {
+        "name": "Abberly Alston",
+        "product": "MF",
+        "units": 330,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2022,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 2058
+      },
+      {
+        "name": "Amberton At Stonewater",
+        "product": "MF",
+        "units": 348,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2013,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1441
+      },
+      {
+        "name": "Aurella Cary",
+        "product": "MF",
+        "units": 360,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1984,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1200
+      },
+      {
+        "name": "Beachwood Park",
+        "product": "MF",
+        "units": 253,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1999,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1415
+      },
+      {
+        "name": "Bell Jones Franklin",
+        "product": "MF",
+        "units": 277,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2021,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-27",
+        "avg_rent": 1651
+      },
+      {
+        "name": "Bridgeport",
+        "product": "MF",
+        "units": 276,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1990,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1191
+      },
+      {
+        "name": "Camden Reunion Park",
+        "product": "MF",
+        "units": 420,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1999,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1346
+      },
+      {
+        "name": "Creekside At Crabtree",
+        "product": "MF",
+        "units": 335,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2016,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1869
+      },
+      {
+        "name": "Crestline Cary",
+        "product": "MF",
+        "units": 247,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1992,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1532
+      },
+      {
+        "name": "Marquis on Cary Parkway",
+        "product": "MF",
+        "units": 388,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1998,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1402
+      },
+      {
+        "name": "Montecito West Apartments",
+        "product": "MF",
+        "units": 134,
+        "units_source": "Wake County, NC property record",
+        "year_built": 1971,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1410
+      },
+      {
+        "name": "Nora",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-26",
+        "avg_rent": 1833
+      },
+      {
+        "name": "The Pointe at Heritage",
+        "product": "MF",
+        "units": 260,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2013,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1356
+      },
+      {
+        "name": "Villages At Pecan Grove",
+        "product": "MF",
+        "units": 336,
+        "units_source": "Wake County, NC property record",
+        "year_built": 2013,
+        "year_source": "Wake County, NC property record",
+        "last_seen": "2026-09-26",
+        "avg_rent": 1506
+      },
+      {
+        "name": "Vintage Raleigh West",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-26",
+        "avg_rent": 1833
+      }
+    ],
+    "JAX": [
+      {
+        "name": "360 Communities at Avenues Walk",
+        "product": "BFR",
+        "units": 186,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2022,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 2461
+      },
+      {
+        "name": "Casa Solara Townhomes",
+        "product": "BFR",
+        "units": 256,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2024,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1843
+      },
+      {
+        "name": "Hammock Oaks",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-28",
+        "avg_rent": 2836
+      },
+      {
+        "name": "Terrapin Station",
+        "product": "BFR",
+        "units": 59,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2022,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 2380
+      },
+      {
+        "name": "Viridian Southside Quarter",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-28",
+        "avg_rent": 2775
+      },
+      {
+        "name": "Cove at Peninsula",
+        "product": "MF",
+        "units": 464,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1971,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1099
+      },
+      {
+        "name": "Eastborough San Marco",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-28",
+        "avg_rent": 1731
+      },
+      {
+        "name": "Elevate Baymeadows",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 1982,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 979
+      },
+      {
+        "name": "Mills Creek Preserve",
+        "product": "MF",
+        "units": 188,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-28",
+        "avg_rent": 1803
+      },
+      {
+        "name": "Oasis of Mandarin",
+        "product": "MF",
+        "units": 263,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1986,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1594
+      },
+      {
+        "name": "Otter Run Apartments",
+        "product": "MF",
+        "units": 193,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1989,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1400
+      },
+      {
+        "name": "Terrabella",
+        "product": "MF",
+        "units": 253,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2021,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 2151
+      },
+      {
+        "name": "The Felix",
+        "product": "MF",
+        "units": 281,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2021,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1503
+      },
+      {
+        "name": "The Finley Apartment Homes",
+        "product": "MF",
+        "units": 319,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2008,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1390
+      },
+      {
+        "name": "The Hawthorne Apartments",
+        "product": "MF",
+        "units": 247,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2013,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1713
+      },
+      {
+        "name": "The Palms at 2800",
+        "product": "MF",
+        "units": 167,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1971,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1199
+      },
+      {
+        "name": "The Residences at Enso",
+        "product": "MF",
+        "units": 305,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2023,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 2178
+      },
+      {
+        "name": "The Square at 59 Caroline",
+        "product": "MF",
+        "units": 356,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1974,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1093
+      },
+      {
+        "name": "The Waterford At Mandarin Apartments",
+        "product": "MF",
+        "units": 436,
+        "units_source": "Duval County, FL property record",
+        "year_built": 1989,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1483
+      },
+      {
+        "name": "Village Walk",
+        "product": "MF",
+        "units": 250,
+        "units_source": "Duval County, FL property record",
+        "year_built": 2003,
+        "year_source": "Duval County, FL property record",
+        "last_seen": "2026-09-28",
+        "avg_rent": 1689
+      }
+    ],
+    "HSV": [
+      {
+        "name": "Lakeside Residences",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1850
+      },
+      {
+        "name": "Memorial Village",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1906
+      },
+      {
+        "name": "Sanctuary at Indian Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1545
+      },
+      {
+        "name": "The Everstead at Madison",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 2022
+      },
+      {
+        "name": "VLux Madison",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1576
+      },
+      {
+        "name": "Arch Street",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1088
+      },
+      {
+        "name": "Aurora Luxury Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1056
+      },
+      {
+        "name": "Chasewood Village",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 775
+      },
+      {
+        "name": "Encore MidCity",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1581
+      },
+      {
+        "name": "Grand Reserve at Madison",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1199
+      },
+      {
+        "name": "Holly Anne",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1749
+      },
+      {
+        "name": "Hunters Ridge Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 775
+      },
+      {
+        "name": "Laurelwood",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 750
+      },
+      {
+        "name": "Legacy at Jones Farm",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1475
+      },
+      {
+        "name": "Mural at Stovehouse",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1192
+      },
+      {
+        "name": "The Alexandria",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1184
+      },
+      {
+        "name": "The Dempsey Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1393
+      },
+      {
+        "name": "The Heights",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1352
+      },
+      {
+        "name": "The Pointe At Bailey Cove",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1245
+      },
+      {
+        "name": "Villas at Kelly Springs",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1275
+      }
+    ],
+    "SRQ": [
+      {
+        "name": "BB Living Antigua at Lakewood Ranch",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 3545
+      },
+      {
+        "name": "Marisol",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2750
+      },
+      {
+        "name": "The Sophia",
+        "product": "BFR",
+        "units": 244,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2023,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-18",
+        "avg_rent": 2045
+      },
+      {
+        "name": "Willow Walk North",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2656
+      },
+      {
+        "name": "Yardly Artisan Lakes",
+        "product": "BFR",
+        "units": 192,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1759
+      },
+      {
+        "name": "Adria",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 1986
+      },
+      {
+        "name": "Amalfi on the Ridge",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-02",
+        "avg_rent": 1573
+      },
+      {
+        "name": "Gulf Gate",
+        "product": "MF",
+        "units": 214,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 1963,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-02",
+        "avg_rent": 1650
+      },
+      {
+        "name": "Lunara",
+        "product": "MF",
+        "units": 303,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2024,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1777
+      },
+      {
+        "name": "Lyra",
+        "product": "MF",
+        "units": 222,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2020,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 2299
+      },
+      {
+        "name": "Marlowe Jacaranda",
+        "product": "MF",
+        "units": 240,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2025,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1811
+      },
+      {
+        "name": "The Archer",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 1672
+      },
+      {
+        "name": "The Concord Luxury Apartments",
+        "product": "MF",
+        "units": 300,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2024,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 2315
+      },
+      {
+        "name": "The Lawrence at Wellen Park",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 2383
+      },
+      {
+        "name": "The Residences At Creighton Waterway",
+        "product": "MF",
+        "units": 100,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2022,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1417
+      },
+      {
+        "name": "The Row Waterside Apartments",
+        "product": "MF",
+        "units": 21,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 2347
+      },
+      {
+        "name": "Treviso Grand",
+        "product": "MF",
+        "units": 272,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 2019,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1470
+      },
+      {
+        "name": "Velo",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-19",
+        "avg_rent": 1919
+      },
+      {
+        "name": "Venice Isles",
+        "product": "MF",
+        "units": 324,
+        "units_source": "Florida DBPR apartment licence",
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-02",
+        "avg_rent": 1878
+      },
+      {
+        "name": "Venice Park",
+        "product": "MF",
+        "units": 244,
+        "units_source": "Sarasota County, FL property record",
+        "year_built": 1985,
+        "year_source": "Sarasota County, FL property record",
+        "last_seen": "2026-10-19",
+        "avg_rent": 1620
+      }
+    ],
+    "SAT": [
+      {
+        "name": "Alamar Apartments",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2199
+      },
+      {
+        "name": "Altura",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2433
+      },
+      {
+        "name": "Birdsong at Sonoma Ranch",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1982
+      },
+      {
+        "name": "Braunwood at Towncreek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2397
+      },
+      {
+        "name": "Caliza at the Loop",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2207
+      },
+      {
+        "name": "Casinas at Gruene",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2042
+      },
+      {
+        "name": "Creekside Ranch",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1938
+      },
+      {
+        "name": "Creekside Terrace",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2050
+      },
+      {
+        "name": "Los Cielos at Brooks",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2119
+      },
+      {
+        "name": "Solstice Springs",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1695
+      },
+      {
+        "name": "The Arbor at Riverstone",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2130
+      },
+      {
+        "name": "The Enclave at Medina",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1995
+      },
+      {
+        "name": "The Willows at Kendall Brook",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2035
+      },
+      {
+        "name": "Tricon Abbott Place",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1629
+      },
+      {
+        "name": "Tricon Trails at Culebra",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1809
+      },
+      {
+        "name": "Village at Mayfair",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1879
+      },
+      {
+        "name": "Villas at College Park",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2125
+      },
+      {
+        "name": "Villas at Creekside",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 2056
+      },
+      {
+        "name": "Vista at Avenida Rental Homes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1873
+      },
+      {
+        "name": "Winding Brook Rental Homes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-18",
+        "avg_rent": 1895
+      }
+    ],
+    "TYS": [
+      {
+        "name": "Alden North Knoxville",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2693
+      },
+      {
+        "name": "Amber Vista",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2920
+      },
+      {
+        "name": "Highline at Knoxville",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2584
+      },
+      {
+        "name": "Mockingbird Meadows",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2893
+      },
+      {
+        "name": "Pleasant Ridge Stables",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2300
+      },
+      {
+        "name": "Steele Landing Townhome Rentals",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2760
+      },
+      {
+        "name": "Strawberry Meadows Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-07-16",
+        "avg_rent": 1990
+      },
+      {
+        "name": "Windermere Trails",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 2945
+      },
+      {
+        "name": "Greystone Summit Knoxville",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 1895
+      },
+      {
+        "name": "Icon Apartment Homes at Hardin Valley",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-22",
+        "avg_rent": 1832
+      },
+      {
+        "name": "The Carlisle",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-02",
+        "avg_rent": 2033
+      },
+      {
+        "name": "The Retreat at Knoxville",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 1939
+      }
+    ],
+    "CHA": [
+      {
+        "name": "Anchor Point",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1920
+      },
+      {
+        "name": "Arcadia Creekside",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1365
+      },
+      {
+        "name": "Ashford Villas",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-09",
+        "avg_rent": 1709
+      },
+      {
+        "name": "Cannondale Court",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1793
+      },
+      {
+        "name": "Cottages at Thrasher",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2024,
+        "year_source": "Hamilton County, TN property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2935
+      },
+      {
+        "name": "Greenway Townes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1095
+      },
+      {
+        "name": "Guild Falls",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Hamilton County, TN property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2446
+      },
+      {
+        "name": "Hamilton Villas",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Hamilton County, TN property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1708
+      },
+      {
+        "name": "Hartman Hill",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Hamilton County, TN property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 2533
+      },
+      {
+        "name": "Miller Landing",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2231
+      },
+      {
+        "name": "Ridgeview at Northgate",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": 2022,
+        "year_source": "Hamilton County, TN property record",
+        "last_seen": "2026-10-11",
+        "avg_rent": 1541
+      }
+    ],
+    "CHI": [
+      {
+        "name": "Manors At Brookmere",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 3250
+      },
+      {
+        "name": "Orland Ridge Towns and Villas",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 3140
+      },
+      {
+        "name": "Central Park Apartments - Park Forest, IL",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1739
+      },
+      {
+        "name": "Echelon Oswego",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 1957
+      },
+      {
+        "name": "Enclave at 127th",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2205
+      },
+      {
+        "name": "Matteson Blu",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2013
+      },
+      {
+        "name": "Seasons at Plainfield",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 2331
+      },
+      {
+        "name": "The Belvedere Apartments",
+        "product": "MF",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-11",
+        "avg_rent": 3225
+      }
+    ],
+    "GSP": [
+      {
+        "name": "Baldwin Chase",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2515
+      },
+      {
+        "name": "Covey Homes Harrison Bridge",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 1793
+      },
+      {
+        "name": "Foxchase",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2361
+      },
+      {
+        "name": "Gramercy Woods",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2130
+      },
+      {
+        "name": "Harrington Trail",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2113
+      },
+      {
+        "name": "Harrison Landing",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 1795
+      },
+      {
+        "name": "Huff Creek",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2236
+      },
+      {
+        "name": "Meadow Springs",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2036
+      },
+      {
+        "name": "Pine Ridge Place",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 2188
+      },
+      {
+        "name": "Valley View Townes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-10-20",
+        "avg_rent": 1685
+      }
+    ],
+    "SAV": [
+      {
+        "name": "Cottonvale Towns",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1955
+      },
+      {
+        "name": "Covey Homes at New Hampstead",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1850
+      },
+      {
+        "name": "Mulberry at Rice Hope",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 2355
+      },
+      {
+        "name": "Oak Grove Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1990
+      },
+      {
+        "name": "Rice Hope",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 2287
+      },
+      {
+        "name": "Rivermoor West Townhomes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-25",
+        "avg_rent": 1945
+      },
+      {
+        "name": "Savannah Gardens Phase IV",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-08-08",
+        "avg_rent": 775
+      },
+      {
+        "name": "The Retreat at Henderson Lakes",
+        "product": "BFR",
+        "units": null,
+        "units_source": null,
+        "year_built": null,
+        "year_source": null,
+        "last_seen": "2026-09-04",
+        "avg_rent": 1250
+      }
+    ]
+  },
+  "metros": {
+    "ATL": "Atlanta, GA",
+    "AUS": "Austin, TX",
+    "CHA": "Chattanooga, TN",
+    "CHI": "Chicago, IL",
+    "CLT": "Charlotte, NC",
+    "DEN": "Denver, CO",
+    "DFW": "Dallas\u2013Fort Worth, TX",
+    "GSP": "Greenville, SC",
+    "HOU": "Houston, TX",
+    "HSV": "Huntsville, AL",
+    "JAX": "Jacksonville, FL",
+    "LAS": "Las Vegas, NV",
+    "LAX": "Los Angeles / Orange County, CA",
+    "MCO": "Orlando, FL",
+    "NSH": "Nashville, TN",
+    "PHX": "Phoenix, AZ",
+    "RDU": "Raleigh\u2013Durham, NC",
+    "SAT": "San Antonio, TX",
+    "SAV": "Savannah, GA",
+    "SRQ": "Sarasota, FL",
+    "TPA": "Tampa, FL",
+    "TYS": "Knoxville, TN"
+  },
+  "generated_at": "2026-10-22T04:06:32+00:00",
+  "sample_per_market": 20
+}

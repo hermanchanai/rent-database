@@ -1,0 +1,20 @@
+{
+  "kind": "parse",
+  "scraped_at": "2026-08-25T16:00:00+00:00",
+  "community": {
+    "id": "realpage-x",
+    "market": "TST",
+    "name": "fixture",
+    "url": "https://example.com/"
+  },
+  "pages": [
+    {
+      "url": "https://example.com/floorplans",
+      "file": "page1.json"
+    },
+    {
+      "url": "https://example.com/units",
+      "file": "page2.json"
+    }
+  ]
+}

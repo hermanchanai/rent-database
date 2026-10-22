@@ -1,0 +1,37 @@
+{
+  "kind": "chain",
+  "scraped_at": "2026-10-08T16:00:00+00:00",
+  "community": {
+    "id": "lax-channel-point",
+    "market": "LAX",
+    "name": "Channel Point",
+    "url": "https://channelpointapts.com/",
+    "product": "mf"
+  },
+  "pages": [
+    {
+      "url": "https://channelpointapts.com/",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://channelpointapts.com/floor-plans",
+      "file": "page2.html"
+    },
+    {
+      "url": "https://sightmap.com/embed/8ywkl5q9vlx",
+      "file": "page3.html"
+    },
+    {
+      "url": "https://sightmap.com/app/api/v1/8ywkldq9vlx/sightmaps/91734",
+      "file": "page4.json"
+    },
+    {
+      "url": "https://sightmap.com/embed/dgow3o3qw2m",
+      "file": "page5.json"
+    },
+    {
+      "url": "https://sightmap.com/app/api/v1/l8xvr31lvjk/sightmaps/4821",
+      "file": "page6.json"
+    }
+  ]
+}
